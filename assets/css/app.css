@@ -3,18 +3,18 @@
 @import "tailwindcss/utilities";
 
 /* This file is for your main application CSS */
-.card {
-  @apply p-4 bg-blue-200 text-blue-800 rounded-lg;
+/* .card {
+  @apply p-4 text-blue-800 bg-blue-200 rounded-lg;
 
   & .title {
-    @apply text-2xl tracking-tight font-bold;
+    @apply text-2xl font-bold tracking-tight;
   }
 
   & .description {
     @apply pt-4 text-lg font-medium;
 
     & a {
-      @apply underline text-blue-600;
+      @apply text-blue-600 underline;
     }
   }
-}
+} */
