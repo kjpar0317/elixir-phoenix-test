@@ -62,6 +62,6 @@ Ecto위에 다중 테너느 어플리케이션을 구축하는 간단하고 효�
 Go to this package homepage [Triplex Go](https://github.com/ateliware/triplex)
 
 ## Ecto Tenancy Enforcer - Multi Tenancy
-EctoTenancyEnforcer는 Ecto를 사용하여 Elixir 어플리케이션을 만든 모든 쿼리에 테넌시 세트가 있는지 확인하는 방법을 제공합니다. 테넌시가 설정되지 않은 쿼리를 생성하면 오류를 처리하거니 예외처리를 한다.
+EctoTenancyEnforcer는 Ecto를 사용하여 Elixir 어플리케이션을 만든 모든 쿼리에 테넌시 세트가 있는지 확인하는 방법을 제공합니다. 테넌시가 설정되지 않은 쿼리를 생성하면 오류를 처리하거나 예외처리를 한다.
 
 Go to this package homepage [Ecto Tenancy Enforcer Go](https://github.com/sb8244/ecto_tenancy_enforcer)
