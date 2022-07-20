@@ -12,7 +12,7 @@ Go to this package homepage [Tailwind Go](https://tailwindcss.com/)
 Go to this package homepage [Bootstrap Go](https://getbootstrap.com/)
 
 ## Alpine - Javascript
-Vue와 같은 마크업으로 DOM 컨트롤을 향상시켜주는 최소한의 자바스크립트입니다. LiveVuew와 같은 기능이 있는 웹앱과 함께 사용하도록 설계
+Vue와 같은 마크업으로 DOM 컨트롤을 향상시켜주는 최소한의 자바스크립트입니다. LiveView와 같은 기능이 있는 웹앱과 함께 사용하도록 설계
 
 Go to this package homepage [Alpine Go](https://github.com/alpinejs/alpine)
 
