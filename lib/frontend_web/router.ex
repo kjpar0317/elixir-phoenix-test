@@ -1,6 +1,10 @@
 defmodule FrontendWeb.Router do
   use FrontendWeb, :router
 
+  # fetch_session : session store
+  # fetch_live_flash : Fetches Phoenix LiveView flash messages from cookie token
+  # protect_from_forgery : 사이트 간 위조 요청
+  # put_secure_brower_headers : Put headers that improve browser security.
   pipeline :browser do
     plug :accepts, ["html"]
     plug :fetch_session
@@ -18,6 +22,8 @@ defmodule FrontendWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+
+    resources "/user", UserController
   end
 
   # Other scopes may use custom stacks.
