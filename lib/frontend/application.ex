@@ -11,7 +11,7 @@ defmodule Frontend.Application do
       # Start the Ecto repository
       Frontend.Repo,
       # Start the Telemetry supervisor
-      FrontendWeb.Telemetry,
+      # FrontendWeb.Telemetry,
       # Start the PubSub system
       {Phoenix.PubSub, name: Frontend.PubSub},
       # Start the Endpoint (http/https)

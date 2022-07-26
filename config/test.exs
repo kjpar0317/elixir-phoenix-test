@@ -21,7 +21,7 @@ config :frontend, FrontendWeb.Endpoint,
   server: false
 
 # In test we don't send emails.
-config :frontend, Frontend.Mailer, adapter: Swoosh.Adapters.Test
+# config :frontend, Frontend.Mailer, adapter: Swoosh.Adapters.Test
 
 # Print only warnings and errors during test
 config :logger, level: :warn

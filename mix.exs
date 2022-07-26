@@ -31,6 +31,10 @@ defmodule Frontend.MixProject do
   # Specifies your project dependencies.
   #
   # Type `mix help deps` for examples and options.
+  # {:floki, ">= 0.30.0", only: :test}, # simple html parser
+  # {:esbuild, "~> 0.4", runtime: Mix.env() == :dev}, # javascript bundler or minified
+  # {:tailwind, "~> 0.1", runtime: Mix.env() == :dev}, # internationalized application
+  # {:plug_cowboy, "~> 2.5"} # erlang web server
   defp deps do
     [
       {:phoenix, "~> 1.6.10"},
@@ -41,12 +45,8 @@ defmodule Frontend.MixProject do
       {:phoenix_live_reload, "~> 1.2", only: :dev},
       {:phoenix_live_view, "~> 0.17.5"},
       {:floki, ">= 0.30.0", only: :test},
-      {:phoenix_live_dashboard, "~> 0.6"},
       {:esbuild, "~> 0.4", runtime: Mix.env() == :dev},
-      {:swoosh, "~> 1.3"},
       {:tailwind, "~> 0.1", runtime: Mix.env() == :dev},
-      {:telemetry_metrics, "~> 0.6"},
-      {:telemetry_poller, "~> 1.0"},
       {:gettext, "~> 0.18"},
       {:jason, "~> 1.2"},
       {:plug_cowboy, "~> 2.5"}
